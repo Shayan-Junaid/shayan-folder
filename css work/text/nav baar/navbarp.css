@@ -1,0 +1,54 @@
+body
+{
+/* background-image: url(a.jpg); */
+background-color: sandybrown;
+
+margin: 0px;
+
+}
+div
+{
+    margin: 0px auto;
+    padding: opx;
+    width: 80%;
+}
+ul li {
+    float: left;
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    list-style: none;
+}
+ul li ul{
+    display: none;
+    
+    padding: 0px;
+    
+   
+}
+ul li:hover > ul
+{
+    display: block;
+    
+}
+ul li ul li 
+{
+position: relative;
+
+}
+ul li ul li ul
+{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+ul li:hover
+{
+    font-size: 30px;
+    background-color: #32cd32;
+    opacity: 0.9;
+}

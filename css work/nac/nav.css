@@ -1,0 +1,50 @@
+
+
+body
+{
+    margin: 0px;
+    background-image: url(p.jpg);
+    background-repeat: ;
+    background-size: 100vh;
+    
+}
+
+#nav
+{
+    background-color:black;
+    color: white;
+    margin: 0px;
+    
+}
+#one,#two
+{
+display: inline-block;
+height: 60px;
+line-height: 60px;
+margin: 5px;
+
+}
+#two
+{
+    float: right;
+}
+td
+{
+    
+    
+    color: white;
+    
+}
+
+fieldset
+{
+    background-color:rgb(227, 229, 231,1);
+    color: black;
+    
+    /* font-size: 25px; */
+}
+    
+#text
+{
+ 
+}
